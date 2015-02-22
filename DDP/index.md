@@ -40,3 +40,22 @@ print (model)
 ##      37.285       -5.344
 ```
 
+---
+
+## The Results
+
+I'm not one to brag, but this is possibly the world's best fuel economy estimator.  Any time anyone needs to know a rough idea of what the fuel econ of a 1972 vechile, and for whatever reason they happen to know the weight, this should be their go to app.
+
+---
+
+## The Future
+
+As you're well aware, the logical outcome of being able to predict 1972 fuel economies, knowing only the weight, can be but one thing.
+
+World peace.
+
+---
+
+## Thank You
+
+Thanks for reading, and I hope you enjoyed developing data products, and this application in particular.
