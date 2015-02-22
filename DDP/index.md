@@ -17,6 +17,9 @@ knit        : slidify::knit2slides
 * Both need to be publicly published
 * shinyapps.io and ph-pages, here we come!
 
+[app](http://datasciencekev.shinyapps.io/DPProj/)
+[presentation](http://datasciencekev.github.io/DDP/)
+
 --- 
 
 ## The Application
@@ -44,15 +47,7 @@ print (model)
 
 ## The Results
 
-I'm not one to brag, but this is possibly the world's best fuel economy estimator.  Any time anyone needs to know a rough idea of what the fuel econ of a 1972 vechile, and for whatever reason they happen to know the weight, this should be their go to app.
-
----
-
-## The Future
-
-As you're well aware, the logical outcome of being able to predict 1972 fuel economies, knowing only the weight, can be but one thing.
-
-World peace.
+I'm not one to brag, but this is possibly the world's best fuel economy estimator.  Any time anyone needs to know a rough idea of what the fuel econ of a 1972 vechicle, and for whatever reason they happen to know the weight, this should be their go to app.
 
 ---
 
