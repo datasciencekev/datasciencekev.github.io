@@ -43,25 +43,40 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Read-And-Delete</h2>
+    <h2>The Basics</h2>
   </hgroup>
   <article data-timings="">
-    <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
-</ol>
+    <ul>
+<li>The goal is to build a shiny app and slidify documentation</li>
+<li>Both need to be publicly published</li>
+<li>shinyapps.io and ph-pages, here we come!</li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="class" id="id" style="background:;">
+<slide class="" id="slide-2" style="background:;">
   <hgroup>
-    <h2>Slide 2</h2>
+    <h2>The Application</h2>
   </hgroup>
   <article data-timings="">
-    
+    <p>We chose to keep things simple - use the mtcars data set, predict MPG based on weight, and interact with the user via a text box.</p>
+
+<pre><code class="r">data(mtcars)
+model &lt;- lm(mpg~wt, data = mtcars)
+print (model)
+</code></pre>
+
+<pre><code>## 
+## Call:
+## lm(formula = mpg ~ wt, data = mtcars)
+## 
+## Coefficients:
+## (Intercept)           wt  
+##      37.285       -5.344
+</code></pre>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -72,13 +87,13 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Read-And-Delete'>
+        data-slide=1 title='The Basics'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 2'>
+        data-slide=2 title='The Application'>
          2
       </a>
     </li>
