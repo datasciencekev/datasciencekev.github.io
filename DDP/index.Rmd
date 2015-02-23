@@ -19,6 +19,7 @@ knit        : slidify::knit2slides
 
 [app](http://datasciencekev.shinyapps.io/DPProj/)
 [presentation](http://datasciencekev.github.io/DDP/)
+[code](https://github.com/datasciencekev/Data-Products)
 
 --- 
 
